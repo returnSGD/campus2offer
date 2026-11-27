@@ -10,6 +10,7 @@
 | [direction-experiment-card.md](./direction-experiment-card.md) | 方向实验卡：把「想试试某个方向」变成 1–4 周可复盘的实验 | 第 6 章 |
 | [jd-breakdown.md](./jd-breakdown.md) | JD 拆解表：把岗位说明书拆成检查项，找证据缺口 | 第 14 章；第 12 章 |
 | [offer-weights.csv](./offer-weights.csv) | Offer 权重表：多 offer 加权打分（含算分示例，可直接导入表格） | 第 15 章 |
+| [evidence-ledger.md](./evidence-ledger.md) | 成果账本，记录个人贡献、结果证据与面试边界，附简历核查清单 | 附录 D |
 
 ## 还缺的（欢迎认领）
 
@@ -17,7 +18,6 @@
 |---|---|
 | 每月判断更新表 | 第 6 章 |
 | 课程翻译表 | 第 2 章 专业 |
-| 成果账本 | 附录 D |
 | 失败分类表 | 第 9 章 协作、收敛与代表作 |
 | 年度复盘卡 | 第 19 章 把一年变成一个可复盘的系统 |
 | 简历 Before / After 对照表 | 第 13 章 简历与面试 |
