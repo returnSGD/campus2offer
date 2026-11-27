@@ -109,6 +109,8 @@
       #4\enspace{\scriptsize\color{ink!45}#2 · #3}}}%
   \par
   \endgroup}
+% 填写线：从当前位置一直画到行尾/盒内右边界
+\newcommand{\fillrule}{\leavevmode\leaders\hbox{\rule[-0.15em]{2pt}{0.4pt}}\hfill\kern0pt}
 \begin{document}
 \begin{titlepage}
 \thispagestyle{empty}
@@ -315,17 +317,17 @@ X：\url{https://x.com/sundayai_}　邮箱：\url{sunday.xu@ttcadvisory.com}。�
 \begin{toolbox}
 \textbf{方向实验卡}
 
-方向：\rule{0.7\textwidth}{0.4pt}
+方向：\fillrule
 
-我对它的初始假设：\rule{0.58\textwidth}{0.4pt}
+我对它的初始假设：\fillrule
 
-两周内可以完成的最小实验：\rule{0.48\textwidth}{0.4pt}
+两周内可以完成的最小实验：\fillrule
 
-结果如何观察：\rule{0.65\textwidth}{0.4pt}
+结果如何观察：\fillrule
 
-继续的条件：\rule{0.7\textwidth}{0.4pt}
+继续的条件：\fillrule
 
-退出或转向的条件：\rule{0.52\textwidth}{0.4pt}
+退出或转向的条件：\fillrule
 \end{toolbox}
 
 \section{选择评价体系，而不是机械跟随评价}
@@ -427,15 +429,15 @@ X：\url{https://x.com/sundayai_}　邮箱：\url{sunday.xu@ttcadvisory.com}。�
 \textbf{专业决策卡。}
 
 \begin{toolbox}
-最想避免的三种学习内容：\rule{0.52\textwidth}{0.4pt}
+最想避免的三种学习内容：\fillrule
 
-愿意连续投入两年的基础能力：\rule{0.42\textwidth}{0.4pt}
+愿意连续投入两年的基础能力：\fillrule
 
-家庭与地域限制：\rule{0.6\textwidth}{0.4pt}
+家庭与地域限制：\fillrule
 
-三个可接受的替代路线：\rule{0.5\textwidth}{0.4pt}
+三个可接受的替代路线：\fillrule
 
-两周内要验证的一个未知：\rule{0.56\textwidth}{0.4pt}
+两周内要验证的一个未知：\fillrule
 \end{toolbox}
 
 \chapter{大学四年：时间轴、弯路与第一个分叉口}
@@ -2094,23 +2096,23 @@ offer & 书面、条款清晰、给考虑时间 & 口头承诺、催当天签、
 
 \chapter{项目卡与成果账本}
 \begin{toolbox}
-项目名称：\rule{0.7\textwidth}{0.4pt}
+项目名称：\fillrule
 
-问题与用户：\rule{0.67\textwidth}{0.4pt}
+问题与用户：\fillrule
 
-我负责的边界：\rule{0.64\textwidth}{0.4pt}
+我负责的边界：\fillrule
 
-基线与指标：\rule{0.68\textwidth}{0.4pt}
+基线与指标：\fillrule
 
-关键实验：\rule{0.72\textwidth}{0.4pt}
+关键实验：\fillrule
 
-失败与放弃的方案：\rule{0.6\textwidth}{0.4pt}
+失败与放弃的方案：\fillrule
 
-结果与验证方式：\rule{0.63\textwidth}{0.4pt}
+结果与验证方式：\fillrule
 
-别人可以复现或检查什么：\rule{0.54\textwidth}{0.4pt}
+别人可以复现或检查什么：\fillrule
 
-下一步：\rule{0.75\textwidth}{0.4pt}
+下一步：\fillrule
 \end{toolbox}
 
 填写时注意三件事。第一，边界要写「不做什么」，面试官更关心你是否清楚范围。第二，指标要写清口径：多少人用、覆盖多少条数据、P95 还是平均。第三，可复现那一栏不能空着——仓库、部署地址、测试方法，至少留一样，否则这张卡在面试里就只是自述。
