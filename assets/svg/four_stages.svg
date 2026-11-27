@@ -12,26 +12,23 @@
 <text x="70" y="72" class="title">四阶段路线：每一步都留下证据</text>
 <text x="70" y="108" class="subtitle">不要一次决定一生；在每个阶段完成一个可验证的下一步。</text>
 <line x1="110" y1="350" x2="1090" y2="350" stroke="#168C86" stroke-width="8" stroke-linecap="round"/>
+<path d="M280 350h50m270 0h50m270 0h50" stroke="#168C86" stroke-width="8" fill="none" stroke-linecap="round"/><path d="M320 334l24 16-24 16M590 334l24 16-24 16M860 334l24 16-24 16" fill="#168C86"/>
 <g transform="translate(70,170)">
-  <circle cx="70" cy="180" r="58" fill="#20354D"/><text x="70" y="172" text-anchor="middle" class="white">1</text><text x="70" y="200" text-anchor="middle" class="white">高中</text>
-  <rect x="0" y="270" width="220" height="190" rx="18" fill="#EAF1F7" stroke="#B9C8D6" stroke-width="2"/>
+  <circle cx="70" cy="180" r="58" fill="#20354D"/><text x="70" y="166" text-anchor="middle" class="white" style="font-size:26px">1</text><text x="70" y="204" text-anchor="middle" class="white" style="font-size:14px">高中</text><rect x="0" y="270" width="220" height="190" rx="18" fill="#EAF1F7" stroke="#B9C8D6" stroke-width="2"/>
   <text x="20" y="310" class="h">先认识约束</text><text x="20" y="350" class="body">课程、专业、学校</text><text x="20" y="382" class="body">与家庭条件</text><text x="20" y="425" class="small">行动：做一次小实验，</text><text x="20" y="450" class="small">不要只看热门标签</text>
 </g>
 <g transform="translate(340,170)">
-  <circle cx="70" cy="180" r="58" fill="#168C86"/><text x="70" y="172" text-anchor="middle" class="white">2</text><text x="70" y="200" text-anchor="middle" class="white">大一</text>
-  <rect x="0" y="270" width="220" height="190" rx="18" fill="#E7F5F3" stroke="#95D2CC" stroke-width="2"/>
+  <circle cx="70" cy="180" r="58" fill="#168C86"/><text x="70" y="166" text-anchor="middle" class="white" style="font-size:26px">2</text><text x="70" y="204" text-anchor="middle" class="white" style="font-size:14px">大一</text><rect x="0" y="270" width="220" height="190" rx="18" fill="#E7F5F3" stroke="#95D2CC" stroke-width="2"/>
   <text x="20" y="310" class="h">低成本探索</text><text x="20" y="350" class="body">课程、比赛、导师</text><text x="20" y="382" class="body">和小项目</text><text x="20" y="425" class="small">行动：记录做过什么，</text><text x="20" y="450" class="small">而不是只记录学过什么</text>
 </g>
 <g transform="translate(610,170)">
-  <circle cx="70" cy="180" r="58" fill="#D9822B"/><text x="70" y="172" text-anchor="middle" class="white">3</text><text x="70" y="196" text-anchor="middle" class="white" style="font-size:15px">大二</text><text x="70" y="214" text-anchor="middle" class="white" style="font-size:15px">大二到三</text>
-  <rect x="0" y="270" width="220" height="190" rx="18" fill="#FFF3E7" stroke="#E9B77D" stroke-width="2"/>
+  <circle cx="70" cy="180" r="58" fill="#D9822B"/><text x="70" y="166" text-anchor="middle" class="white" style="font-size:26px">3</text><text x="70" y="204" text-anchor="middle" class="white" style="font-size:14px">大二—大三</text><rect x="0" y="270" width="220" height="190" rx="18" fill="#FFF3E7" stroke="#E9B77D" stroke-width="2"/>
   <text x="20" y="310" class="h">逐步收敛</text><text x="20" y="350" class="body">方向、代表作、实习</text><text x="20" y="382" class="body">和可验证结果</text><text x="20" y="425" class="small">行动：从“我会很多”</text><text x="20" y="450" class="small">走到“这个问题我做过”</text>
 </g>
 <g transform="translate(880,170)">
-  <circle cx="70" cy="180" r="58" fill="#6E5AA6"/><text x="70" y="172" text-anchor="middle" class="white">4</text><text x="70" y="196" text-anchor="middle" class="white" style="font-size:15px">大四</text><text x="70" y="214" text-anchor="middle" class="white" style="font-size:15px">到入职前</text>
-  <rect x="0" y="270" width="220" height="190" rx="18" fill="#F0EDFA" stroke="#B8AEE0" stroke-width="2"/>
+  <circle cx="70" cy="180" r="58" fill="#6E5AA6"/><text x="70" y="166" text-anchor="middle" class="white" style="font-size:26px">4</text><text x="70" y="204" text-anchor="middle" class="white" style="font-size:14px">大四—入职前</text><rect x="0" y="270" width="220" height="190" rx="18" fill="#F0EDFA" stroke="#B8AEE0" stroke-width="2"/>
   <text x="20" y="310" class="h">把证据带到现场</text><text x="20" y="350" class="body">岗位、简历、面试</text><text x="20" y="382" class="body">和 offer 决策</text><text x="20" y="425" class="small">行动：选择适合约束的</text><text x="20" y="450" class="small">第一份工作</text>
 </g>
-<path d="M280 350h50m270 0h50m270 0h50" stroke="#168C86" stroke-width="8" fill="none" stroke-linecap="round"/><path d="M320 334l24 16-24 16M590 334l24 16-24 16M860 334l24 16-24 16" fill="#168C86"/>
+
 <text x="600" y="655" text-anchor="middle" class="subtitle">四个阶段共享同一条逻辑：选择 → 行动 → 证据 → 再选择</text>
 </svg>

@@ -11,7 +11,7 @@
 <rect width="1200" height="760" rx="28" fill="#F7FAFC"/>
 <text x="70" y="70" class="title">岗位匹配矩阵</text><text x="70" y="106" class="subtitle">同一个经历放进不同岗位，证明力不同；先确定岗位，再准备证据。</text>
 <rect x="80" y="150" width="1040" height="520" rx="14" fill="#FFFFFF" stroke="#B9C8D6" stroke-width="2"/>
-<rect x="80" y="150" width="1040" height="62" rx="14" fill="#20354D"/>
+<rect x="82" y="152" width="1036" height="58" rx="10" fill="#20354D"/>
 <text x="105" y="190" class="white">岗位</text><text x="270" y="190" class="white">第一证据</text><text x="550" y="190" class="white">第二证据</text><text x="820" y="190" class="white">常见误配</text>
 <g class="body">
 <line x1="80" y1="212" x2="1120" y2="212" class="line"/><line x1="80" y1="288" x2="1120" y2="288" class="line"/><line x1="80" y1="364" x2="1120" y2="364" class="line"/><line x1="80" y1="440" x2="1120" y2="440" class="line"/><line x1="80" y1="516" x2="1120" y2="516" class="line"/><line x1="80" y1="592" x2="1120" y2="592" class="line"/>
