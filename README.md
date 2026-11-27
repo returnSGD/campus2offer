@@ -29,6 +29,7 @@
 | 改书稿 | [把经历变成证据-初稿.tex](./把经历变成证据-初稿.tex)（XeLaTeX + ctexbook） |
 | 参与贡献 | [CONTRIBUTING.md](./CONTRIBUTING.md) |
 | 看改动记录 | [编辑说明.md](./编辑说明.md) |
+| 改了内容要同步什么 | [维护指南.md](./维护指南.md) |
 
 ## 本地编译
 
