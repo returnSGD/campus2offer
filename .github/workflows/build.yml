@@ -186,7 +186,8 @@ jobs:
           PAGES=$(ls out/png | wc -l)
           SIZE=$(du -h "$PDFNAME" | cut -f1)
           SHA=${GITHUB_SHA:0:7}
-          NOTES="自动编译于 $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')（北京时间，UTC+8）
+          BUILD_TS=$(TZ=Asia/Shanghai date '+%Y-%m-%dT%H:%M:%S+08:00')
+          NOTES="自动编译于 $BUILD_TS
 
           - 提交：\`$SHA\`
           - 页数：$PAGES
@@ -199,9 +200,9 @@ jobs:
           git archive --format=zip -o /tmp/campus2offer-src.zip HEAD
 
           if gh release view latest >/dev/null 2>&1; then
-            gh release edit latest --title "最新编译版｜$PAGES 页｜$SHA｜$(TZ=Asia/Shanghai date '+%m-%d %H:%M') 北京" --notes "$NOTES" --latest
+            gh release edit latest --title "最新编译版｜$PAGES 页｜$SHA｜$BUILD_TS" --notes "$NOTES" --latest
           else
-            gh release create latest --title "最新编译版｜$PAGES 页｜$SHA｜$(TZ=Asia/Shanghai date '+%m-%d %H:%M') 北京" --notes "$NOTES" --latest
+            gh release create latest --title "最新编译版｜$PAGES 页｜$SHA｜$BUILD_TS" --notes "$NOTES" --latest
           fi
           cp "$PDFNAME" campus2offer-latest.pdf
           gh release upload latest campus2offer-latest.pdf --clobber
